@@ -1,0 +1,149 @@
+/**
+ * Created by: Sweta Kumari, 15-08-2018.
+ * CSS file for Hotel web application, COSC212-assignment, 2018,
+ */
+
+
+/* General formatting for the page */
+html{
+    background-color:#dddddd;
+    color:black;
+    font-family: Verdana, sans-serif, Arial;
+    text-align: left;
+    min-width: 1140px;
+}
+
+
+/* Common formatting for main block elements */
+div, nav, header, main, #map{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Layout for header */
+header {
+    background-image: url(./images/hotel.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+header h1{
+    position: absolute;
+    top: 50px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    width: 100%;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+}
+
+/* Layout main content of the page*/
+#mainContent{
+    margin-left: 150px;
+    margin-right: 100px;
+
+}
+main {
+    width: 80%;
+    float: left;
+}
+
+/* Headings */
+h1 {
+    margin: 0px;
+    float: left;
+}
+
+/* Navigation links */
+nav {
+    width: 135px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    padding-left: 20px;
+    text-indent: -20px;
+    padding-top: 10px;
+}
+
+/* Layout for map, restaurant attraction */
+#map{
+    border:2px solid;
+    height:400px;
+    width:70%;
+    margin: 25px auto;
+}
+
+.leaflet-popup-content {
+    width: 160px;
+}
+
+/* Footer */
+footer {
+    font-size: 13px;
+    text-align: center;
+    clear: both;
+    width: 50%;
+    margin: 30px auto;
+}
+
+#bookingForm{
+    width:300px;
+    border:1px solid;
+    padding: 10px;
+    display:inline-block;
+    margin: 0;
+    vertical-align: top;
+    text-align: left;
+}
+form ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+
+fieldset + fieldset{
+    margin-top: 30px;
+}
+
+#output{
+    border: 1px solid;
+    padding:20px;
+    display:inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#roomType{
+    width:200px;
+    min-height: 100px;
+    border: 1px solid;
+    padding:20px;
+    display:inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#output td{
+    padding:2px 5px;
+}
+
+#pendingBookings {
+    text-align: left;
+}
+

@@ -1,0 +1,120 @@
+/**
+ * Created by: Sweta Kumari, 15-08-2018.
+ * CSS file for Hotel web application, COSC212-assignment, 2018,
+ */
+
+
+/* General formatting for the page */
+body {
+    background-color: #dddddd;
+    font-size: 10pt;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+}
+
+/* Common formatting for main block elements */
+div, nav, header, footer, main, #map{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Layout for header */
+header {
+    background-image: url(../images/hotel.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+header h1{
+    position: absolute;
+    top: 50px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Veranda", Arial, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    width: 100%;
+    color: black;
+}
+
+/* Layout main content of the page*/
+#mainContent{
+    margin-left: 150px;
+    margin-right: 250px;
+
+}
+main {
+    width: 600px;
+    float: left;
+}
+
+/* Headings */
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 36pt;
+    margin: 0px;
+    float: left;
+}
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 24pt;
+}
+h3 {
+    font-size: 12pt;
+}
+
+/* Navigation links */
+nav {
+    font-size: 12pt;
+    width: 135px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    padding-left: 20px;
+    text-indent: -20px;
+    padding-top: 10px;
+}
+
+/* Layout for map, restaurant attraction */
+#map{
+    align-content: center;
+    width: 590px;
+    height:400px;
+    padding: 0px;
+    border: 1px solid black;
+}
+.contact {
+    width: 160px;
+    float: left;
+}
+
+/* Footer */
+footer {
+    font-size: 8pt;
+    text-align: center;
+    width: 767px;
+    clear: both;
+}
+
+/* Format for films */
+img {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+#room {
+    padding-left: 30%;
+}
+
+
+
+
+
+

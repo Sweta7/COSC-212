@@ -1,0 +1,68 @@
+<!--HTML page for booking room, Created by: Sweta Kumari, for COSC-212 assignment 20-08-2018.-->
+
+
+<!DOCTYPE HTML>
+<html lang='en'>
+
+  <head>
+    <title>Arya Hotel Room Booking</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+    <script src="javascript/cookies.js"></script>
+    <script src="javascript/validator.js"></script>
+    <script src="javascript/bookroom.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Arya Hotel </h1>
+    </header>
+
+    <div id="mainContent">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Our Rooms</a></li>
+          <li>Book a Room</li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Book A Room</h2>
+        <div id="pending_bookings"></div>
+        <div id="room_booking">
+          <p>Welcome to Arya Hotel, please select your date :-</p>
+          <form>
+            <fieldset>
+              <legend>Choose your dates:</legend>
+              <p>
+                <label for="checkInDate">Check-in date: </label>
+                <input type="date" name="checkInDate" id="checkInDate" max="2019-12-31" min="2018-08-01" required><br><br>
+              </p>
+              <p>
+                <label for="checkOutDate">Check-out date: </label>
+                <input type="date" name="checkOutDate" id="checkOutDate" max="2019-12-31" min="2018-08-01" required><br><br>
+              </p>
+              <p>
+                <input type="button" value="Search Room" id="searchRoom"><br>
+              </p>
+            </fieldset>
+            <p>
+              <label for="findRoom">Select Room: </label>
+              <select name='findRoom' id='findRoom'></select><br><br>
+              <label for="booking_name"> Booking Name: </label>
+              <input type = 'text' id="booking_name" required><br><br>
+              <input type="button" value="Book Room" id="book"><br>
+            </p>
+          </form>
+        </div>
+        <div id="errors"></div>
+      </main>
+      <footer>
+        <p><strong>Disclaimer: </strong>This website was created for the University of Otago, COSC-212 project.
+          The content is largely fictional and no services are actually being offered. Created by Sweta Kumari.</p>
+      </footer>
+    </div>
+  </body>
+</html>

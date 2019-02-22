@@ -1,0 +1,11 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "description": "Owheo Building"
+    },
+    "geometry": {
+      "type": "1234, -3456"
+    }
+  }
+]

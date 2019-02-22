@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Sapphire Dev">
+    <serverData>
+      <paths name="Sapphire Dev">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/lab02" local="$PROJECT_DIR$/classicCinema" web="/lab02" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

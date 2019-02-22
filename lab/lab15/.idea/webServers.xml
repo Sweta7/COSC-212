@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a6351fae-6a79-4d3e-b9d0-92d284bd6cfe" name="local" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$/classicCinema" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
